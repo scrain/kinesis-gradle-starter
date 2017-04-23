@@ -8,5 +8,5 @@ Run `./gradlew tasks` for more detail.
 This is essentially a Gradle project based implementation around the information found in the article
 https://sookocheff.com/post/kinesis/local-development-with-the-kcl/[Local Development with the Kinesis
 Client Library].  The https://github.com/srs/gradle-node-plugin[Gradle Node Plugin] is used to eliminate
-the need for having a local installation of npm and the https://github.com/marc0der/gradle-spawn-plugin|[Gradle Spawn
+the need for managing a local installation of npm and the https://github.com/marc0der/gradle-spawn-plugin[Gradle Spawn
 Plugin] is used to create tasks for starting and stopping the Dynalite and Kinesalite background processes.
