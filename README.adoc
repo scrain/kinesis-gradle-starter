@@ -1,0 +1,12 @@
+= Kinesis Client Gradle Starter Project
+
+This is a work in progress Gradle project for working with the Kinesis Client Library for Java.
+Includes tasks for getting locally running versions of DynamoDB and Kinesis running using the
+https://github.com/mhart/dynalite[Dynalite] and https://github.com/mhart/kinesalite[Kinesalite] libraries.
+Run `./gradlew tasks` for more detail.
+
+This is essentially a Gradle project based implementation around the information found in the article
+https://sookocheff.com/post/kinesis/local-development-with-the-kcl/[Local Development with the Kinesis
+Client Library].  The https://github.com/srs/gradle-node-plugin[Gradle Node Plugin] is used to eliminate
+the need for having a local installation of npm and the https://github.com/marc0der/gradle-spawn-plugin|[Gradle Spawn
+Plugin] is used to create tasks for starting and stopping the Dynalite and Kinesalite background processes.
